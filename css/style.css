@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/2003189.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+
+.container {
+    background-color: lightskyblue;
+    border-style: groove;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    border-width: 50px;
+    border-color: pink;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
+
+h3 {
+    background-color: darkblue;
+    border-style: groove;
+    padding: 0;
+    color: white;
+
+}
+
+ul, li {
+    list-style-position: inside;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+h1{
+    color: royalblue;
+    font-style: oblique;
+    border-color: black;
+    border-style: groove;
+    border-width: thick;
+    float: left;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    font-style: oblique;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color:black;
+} 
+
+button {
+    background-color: pink;
+}
+

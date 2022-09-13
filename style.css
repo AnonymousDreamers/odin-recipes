@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 250px;
+    background-image: url(https://wallpaperaccess.com/full/2003189.jpg);
+    background-size: cover;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color:bisque;
+    border: black;
+    border-radius: 20px;
+    box-shadow: -10px 5px 10px;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.flex:hover {
+    top: -10px;
+}
